@@ -1,0 +1,634 @@
+[2m2022-05-25 00:30:48.178[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66236 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 00:30:48.182[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 00:30:48.214[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2022-05-25 00:30:48.214[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2022-05-25 00:30:49.315[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 00:30:49.321[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 00:30:49.322[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 00:30:49.322[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 00:30:49.389[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 00:30:49.389[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1174 ms
+[2m2022-05-25 00:30:50.001[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 00:30:50.121[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 00:30:50.133[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 00:30:50.378[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 2.45 seconds (JVM running for 3.15)
+[2m2022-05-25 00:30:59.257[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2022-05-25 00:30:59.257[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-25 00:30:59.259[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-25 00:34:31.856[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66236 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 00:34:31.857[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 00:34:32.242[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 00:34:32.243[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 00:34:32.243[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 00:34:32.243[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 00:34:32.259[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 00:34:32.259[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 400 ms
+[2m2022-05-25 00:34:32.422[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 00:34:32.460[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 00:34:32.463[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 00:34:32.561[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 0.735 seconds (JVM running for 225.333)
+[2m2022-05-25 00:34:32.562[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-25 00:35:30.162[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66236 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 00:35:30.162[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 00:35:30.579[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 00:35:30.580[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 00:35:30.580[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 00:35:30.580[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 00:35:30.599[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 00:35:30.599[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 435 ms
+[2m2022-05-25 00:35:30.779[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 00:35:30.821[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 00:35:30.823[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 00:35:30.928[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 0.795 seconds (JVM running for 283.7)
+[2m2022-05-25 00:35:30.930[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-25 00:35:32.176[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2022-05-25 00:35:32.176[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-25 00:35:32.177[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-25 00:35:35.012[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출
+[2m2022-05-25 00:35:35.018[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2022-05-25 00:35:35.188[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2022-05-25 00:35:54.058[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m retrieveNews - 호출
+[2m2022-05-25 00:37:54.030[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[      Thread-19][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2022-05-25 00:37:54.033[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[      Thread-19][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+[2m2022-05-25 00:37:54.191[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66236 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 00:37:54.191[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 00:37:54.605[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 00:37:54.606[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 00:37:54.606[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 00:37:54.606[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 00:37:54.623[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 00:37:54.624[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 431 ms
+[2m2022-05-25 00:37:54.787[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 00:37:54.827[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 00:37:54.829[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 00:37:54.916[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 0.755 seconds (JVM running for 427.688)
+[2m2022-05-25 00:37:54.917[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-25 00:37:55.472[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2022-05-25 00:37:55.473[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-25 00:37:55.474[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-25 00:37:55.475[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출
+[2m2022-05-25 00:37:55.476[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Starting...
+[2m2022-05-25 00:37:55.494[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Start completed.
+[2m2022-05-25 01:03:18.402[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[      Thread-25][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Shutdown initiated...
+[2m2022-05-25 01:03:18.407[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[      Thread-25][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Shutdown completed.
+[2m2022-05-25 01:03:18.553[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66236 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 01:03:18.554[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 01:03:18.922[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 01:03:18.923[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 01:03:18.923[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 01:03:18.923[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 01:03:18.938[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 01:03:18.938[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 383 ms
+[2m2022-05-25 01:03:19.082[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 01:03:19.119[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 01:03:19.120[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 01:03:19.190[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 0.667 seconds (JVM running for 1951.963)
+[2m2022-05-25 01:03:19.191[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-25 01:20:02.639[0;39m [32m INFO[0;39m [35m66236[0;39m [2m---[0;39m [2m[n(73)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-05-25 09:19:40.048[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66048 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 09:19:40.050[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 09:19:40.084[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2022-05-25 09:19:40.084[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2022-05-25 09:19:41.268[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 09:19:41.276[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 09:19:41.276[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 09:19:41.276[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 09:19:41.351[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 09:19:41.351[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1266 ms
+[2m2022-05-25 09:19:42.064[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 09:19:42.195[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 09:19:42.215[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 09:19:42.463[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 2.72 seconds (JVM running for 3.539)
+[2m2022-05-25 09:22:08.129[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2022-05-25 09:22:08.129[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-25 09:22:08.130[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-25 09:22:08.163[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA - 호출
+[2m2022-05-25 09:22:08.186[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2022-05-25 09:22:08.428[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2022-05-25 09:22:11.985[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA - 호출
+[2m2022-05-25 09:22:19.555[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.h.controller.UserController         [0;39m [2m:[0;39m 로그인 요청
+[2m2022-05-25 09:22:19.620[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.model.service.jwtServiceImpl      [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653438139564, algo=HS256, alg=HS256},body={exp=1653441739, sub=access-token, id=ssafy1},signature=nYGyfgjRLEf6qPl51RjCh_faRBIBsipnKWHmUz4Tpr8
+[2m2022-05-25 09:22:19.620[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.UserController         [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-25 09:22:19.620[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.UserController         [0;39m [2m:[0;39m eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNDM4MTM5NTY0LCJhbGdvIjoiSFMyNTYiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM0NDE3MzksInN1YiI6ImFjY2Vzcy10b2tlbiIsImlkIjoic3NhZnkxIn0.nYGyfgjRLEf6qPl51RjCh_faRBIBsipnKWHmUz4Tpr8
+[2m2022-05-25 09:22:20.665[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA - 호출
+[2m2022-05-25 09:22:21.525[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailQnA - 호출
+[2m2022-05-25 09:22:21.525[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.h.model.service.jwtServiceImpl      [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653438139564, algo=HS256, alg=HS256},body={exp=1653441739, sub=access-token, id=ssafy1},signature=nYGyfgjRLEf6qPl51RjCh_faRBIBsipnKWHmUz4Tpr8
+[2m2022-05-25 09:22:21.526[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m 성공
+[2m2022-05-25 09:23:14.743[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:23:53.648[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:23:58.216[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:24:17.427[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m writeAptComment - 호출
+[2m2022-05-25 09:24:17.450[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:24:21.286[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m deleteAptComment - 호출
+[2m2022-05-25 09:24:21.308[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:24:27.655[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:24:45.559[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.h.controller.UserController         [0;39m [2m:[0;39m 로그인 요청
+[2m2022-05-25 09:24:45.566[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.h.model.service.jwtServiceImpl      [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653438285562, algo=HS256, alg=HS256},body={exp=1653441885, sub=access-token, id=ssafy1},signature=Pw0z4Q-DR1iQuPA_pE6znhoY4kErlBwTlw9vF4PSWH8
+[2m2022-05-25 09:24:45.566[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.h.controller.UserController         [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-25 09:24:45.566[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.h.controller.UserController         [0;39m [2m:[0;39m eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNDM4Mjg1NTYyLCJhbGdvIjoiSFMyNTYiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM0NDE4ODUsInN1YiI6ImFjY2Vzcy10b2tlbiIsImlkIjoic3NhZnkxIn0.Pw0z4Q-DR1iQuPA_pE6znhoY4kErlBwTlw9vF4PSWH8
+[2m2022-05-25 09:24:55.756[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:25:00.189[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:25:10.547[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m writeAptComment - 호출
+[2m2022-05-25 09:25:10.555[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:25:24.216[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:25:35.100[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m writeAptComment - 호출
+[2m2022-05-25 09:25:35.109[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:25:44.275[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m writeAptComment - 호출
+[2m2022-05-25 09:25:44.288[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:25:50.113[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m deleteAptComment - 호출
+[2m2022-05-25 09:25:50.125[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:25:50.782[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m deleteAptComment - 호출
+[2m2022-05-25 09:25:50.789[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:30:54.088[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA - 호출
+[2m2022-05-25 09:32:51.176[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:33:54.785[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:34:04.415[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:34:18.797[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:34:51.356[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 09:35:45.669[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 14:08:54.534[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출
+[2m2022-05-25 14:08:54.916[0;39m [31mERROR[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/happyhouse] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index: 10, Size: 10] with root cause
+
+java.lang.IndexOutOfBoundsException: Index: 10, Size: 10
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl.updateNews(NewsServiceImpl.java:59)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl$$FastClassBySpringCGLIB$$2d23097d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl$$EnhancerBySpringCGLIB$$76e49339.updateNews(<generated>)
+	at com.ssafy.happyhouse.controller.NewsController.updateNews(NewsController.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[2m2022-05-25 14:09:09.635[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출
+[2m2022-05-25 14:09:09.754[0;39m [31mERROR[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/happyhouse] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index: 10, Size: 10] with root cause
+
+java.lang.IndexOutOfBoundsException: Index: 10, Size: 10
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl.updateNews(NewsServiceImpl.java:59)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl$$FastClassBySpringCGLIB$$2d23097d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl$$EnhancerBySpringCGLIB$$76e49339.updateNews(<generated>)
+	at com.ssafy.happyhouse.controller.NewsController.updateNews(NewsController.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[2m2022-05-25 14:19:02.321[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[       Thread-5][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2022-05-25 14:19:02.331[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[       Thread-5][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+[2m2022-05-25 14:19:02.549[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66048 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 14:19:02.549[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 14:19:03.068[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 14:19:03.068[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 14:19:03.068[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 14:19:03.069[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 14:19:03.084[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 14:19:03.084[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 533 ms
+[2m2022-05-25 14:19:03.295[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 14:19:03.343[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 14:19:03.345[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 14:19:03.440[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 0.942 seconds (JVM running for 17964.517)
+[2m2022-05-25 14:19:03.442[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-25 14:19:04.210[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2022-05-25 14:19:04.211[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-25 14:19:04.212[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-25 14:19:04.213[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출
+[2m2022-05-25 14:19:04.214[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Starting...
+[2m2022-05-25 14:19:04.234[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Start completed.
+[2m2022-05-25 14:19:19.920[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m retrieveNews - 호출
+[2m2022-05-25 14:23:16.444[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA - 호출
+[2m2022-05-25 14:23:17.553[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailQnA - 호출
+[2m2022-05-25 14:23:17.556[0;39m [31mERROR[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.model.service.jwtServiceImpl      [0;39m [2m:[0;39m JWT expired at 2022-05-25T10:24:45Z. Current time: 2022-05-25T14:23:17Z, a difference of 14312555 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2m2022-05-25 14:23:19.260[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailQnA - 호출
+[2m2022-05-25 14:23:19.261[0;39m [31mERROR[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.h.model.service.jwtServiceImpl      [0;39m [2m:[0;39m JWT expired at 2022-05-25T10:24:45Z. Current time: 2022-05-25T14:23:19Z, a difference of 14314261 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2m2022-05-25 14:23:32.255[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.h.controller.UserController         [0;39m [2m:[0;39m 로그인 요청
+[2m2022-05-25 14:23:32.269[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.h.model.service.jwtServiceImpl      [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653456212262, algo=HS256, alg=HS256},body={exp=1653459812, sub=access-token, id=ssafy1},signature=CKMwBi14xn3NW0uteZbVvh-4W5ByNT_M3zViVhkplwU
+[2m2022-05-25 14:23:32.269[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.h.controller.UserController         [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-25 14:23:32.269[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.h.controller.UserController         [0;39m [2m:[0;39m eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNDU2MjEyMjYyLCJhbGdvIjoiSFMyNTYiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM0NTk4MTIsInN1YiI6ImFjY2Vzcy10b2tlbiIsImlkIjoic3NhZnkxIn0.CKMwBi14xn3NW0uteZbVvh-4W5ByNT_M3zViVhkplwU
+[2m2022-05-25 14:23:33.321[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA - 호출
+[2m2022-05-25 14:23:34.151[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailQnA - 호출
+[2m2022-05-25 14:23:34.152[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.h.model.service.jwtServiceImpl      [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653456212262, algo=HS256, alg=HS256},body={exp=1653459812, sub=access-token, id=ssafy1},signature=CKMwBi14xn3NW0uteZbVvh-4W5ByNT_M3zViVhkplwU
+[2m2022-05-25 14:23:34.152[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m 성공
+[2m2022-05-25 14:23:35.301[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailQnA - 호출
+[2m2022-05-25 14:23:35.302[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.model.service.jwtServiceImpl      [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653456212262, algo=HS256, alg=HS256},body={exp=1653459812, sub=access-token, id=ssafy1},signature=CKMwBi14xn3NW0uteZbVvh-4W5ByNT_M3zViVhkplwU
+[2m2022-05-25 14:23:35.302[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m 성공
+[2m2022-05-25 14:23:37.890[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m updateQnA - 호출
+[2m2022-05-25 14:23:38.763[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA - 호출
+[2m2022-05-25 14:27:28.822[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출
+[2m2022-05-25 14:27:35.667[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m retrieveNews - 호출
+[2m2022-05-25 14:32:08.801[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 14:32:29.902[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 14:32:32.139[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 14:32:33.967[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 14:32:37.038[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 14:32:43.704[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 14:32:46.618[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 14:32:49.035[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 14:33:07.917[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 14:33:20.187[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 14:33:57.725[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출
+[2m2022-05-25 15:03:16.643[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m retrieveNews - 호출
+[2m2022-05-25 15:28:36.867[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 15:28:44.987[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.AptCommentController   [0;39m [2m:[0;39m detailAptComment - 호출
+[2m2022-05-25 15:28:46.549[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m retrieveNews - 호출
+[2m2022-05-25 15:28:46.551[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출
+[2m2022-05-25 15:28:58.231[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출
+[2m2022-05-25 15:29:10.165[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출
+[2m2022-05-25 15:50:40.435[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[       Thread-8][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Shutdown initiated...
+[2m2022-05-25 15:50:40.440[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[       Thread-8][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-2 - Shutdown completed.
+[2m2022-05-25 15:50:40.644[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66048 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 15:50:40.644[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 15:50:41.085[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 15:50:41.085[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 15:50:41.085[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 15:50:41.085[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 15:50:41.102[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 15:50:41.103[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 456 ms
+[2m2022-05-25 15:50:41.287[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 15:50:41.332[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 15:50:41.334[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 15:50:41.447[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 0.846 seconds (JVM running for 23462.524)
+[2m2022-05-25 15:50:41.449[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-25 15:50:43.051[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66048 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 15:50:43.051[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 15:50:43.408[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 15:50:43.408[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 15:50:43.409[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 15:50:43.409[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 15:50:43.423[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 15:50:43.423[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 369 ms
+[2m2022-05-25 15:50:43.573[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 15:50:43.613[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 15:50:43.616[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 15:50:43.692[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 0.671 seconds (JVM running for 23464.769)
+[2m2022-05-25 15:50:43.693[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-25 15:50:57.522[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66048 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 15:50:57.523[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 15:50:57.887[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 15:50:57.888[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 15:50:57.888[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 15:50:57.888[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 15:50:57.904[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 15:50:57.904[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 379 ms
+[2m2022-05-25 15:50:58.054[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 15:50:58.089[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 15:50:58.091[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 15:50:58.158[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 0.666 seconds (JVM running for 23479.234)
+[2m2022-05-25 15:50:58.159[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-25 15:51:35.413[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66048 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 15:51:35.413[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 15:51:35.811[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 15:51:35.812[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 15:51:35.812[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 15:51:35.812[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 15:51:35.828[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 15:51:35.828[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 413 ms
+[2m2022-05-25 15:51:35.991[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 15:51:36.031[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 15:51:36.033[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 15:51:36.103[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 0.72 seconds (JVM running for 23517.179)
+[2m2022-05-25 15:51:36.104[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-25 15:51:58.985[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2022-05-25 15:51:58.986[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-25 15:51:58.987[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-25 15:52:06.270[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출
+[2m2022-05-25 15:52:06.271[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-3 - Starting...
+[2m2022-05-25 15:52:06.302[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-3 - Start completed.
+[2m2022-05-25 15:52:09.830[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m retrieveNews - 호출
+[2m2022-05-25 15:52:09.836[0;39m [31mERROR[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/happyhouse] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+### The error may exist in file [C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes\mappers\news.xml]
+### The error may involve com.ssafy.happyhouse.model.mapper.NewsMapper.selectNews
+### The error occurred while handling results
+### SQL: select no, title, content,regtime, company,url   from news    order by no
+### Cause: java.lang.IndexOutOfBoundsException: Index: 6, Size: 6] with root cause
+
+java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createUsingConstructor(DefaultResultSetHandler.java:709)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createByConstructorSignature(DefaultResultSetHandler.java:694)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createResultObject(DefaultResultSetHandler.java:658)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createResultObject(DefaultResultSetHandler.java:631)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getRowValue(DefaultResultSetHandler.java:398)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValuesForSimpleResultMap(DefaultResultSetHandler.java:355)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValues(DefaultResultSetHandler.java:329)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSet(DefaultResultSetHandler.java:302)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSets(DefaultResultSetHandler.java:195)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy154.selectNews(Unknown Source)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl.retrieveNews(NewsServiceImpl.java:28)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl$$FastClassBySpringCGLIB$$2d23097d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl$$EnhancerBySpringCGLIB$$76e49339.retrieveNews(<generated>)
+	at com.ssafy.happyhouse.controller.NewsController.retrieveNews(NewsController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[2m2022-05-25 15:52:32.506[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m retrieveNews - 호출
+[2m2022-05-25 15:52:32.507[0;39m [31mERROR[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/happyhouse] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+### The error may exist in file [C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes\mappers\news.xml]
+### The error may involve com.ssafy.happyhouse.model.mapper.NewsMapper.selectNews
+### The error occurred while handling results
+### SQL: select no, title, content,regtime, company,url   from news    order by no
+### Cause: java.lang.IndexOutOfBoundsException: Index: 6, Size: 6] with root cause
+
+java.lang.IndexOutOfBoundsException: Index: 6, Size: 6
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createUsingConstructor(DefaultResultSetHandler.java:709)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createByConstructorSignature(DefaultResultSetHandler.java:694)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createResultObject(DefaultResultSetHandler.java:658)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.createResultObject(DefaultResultSetHandler.java:631)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.getRowValue(DefaultResultSetHandler.java:398)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValuesForSimpleResultMap(DefaultResultSetHandler.java:355)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleRowValues(DefaultResultSetHandler.java:329)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSet(DefaultResultSetHandler.java:302)
+	at org.apache.ibatis.executor.resultset.DefaultResultSetHandler.handleResultSets(DefaultResultSetHandler.java:195)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy80.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy154.selectNews(Unknown Source)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl.retrieveNews(NewsServiceImpl.java:28)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl$$FastClassBySpringCGLIB$$2d23097d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.ssafy.happyhouse.model.service.NewsServiceImpl$$EnhancerBySpringCGLIB$$76e49339.retrieveNews(<generated>)
+	at com.ssafy.happyhouse.controller.NewsController.retrieveNews(NewsController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[2m2022-05-25 15:52:41.818[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[      Thread-24][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-3 - Shutdown initiated...
+[2m2022-05-25 15:52:41.823[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[      Thread-24][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-3 - Shutdown completed.
+[2m2022-05-25 15:52:41.973[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Starting VueApiApplication using Java 1.8.0_192 on cheol with PID 66048 (C:\SSAFY\workspace\06_Spring_01\HHAPI\target\classes started by cheol in C:\SSAFY\workspace\06_Spring_01\HHAPI)
+[2m2022-05-25 15:52:41.973[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-25 15:52:42.431[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-25 15:52:42.432[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 15:52:42.432[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-25 15:52:42.432[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-25 15:52:42.449[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-25 15:52:42.450[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 475 ms
+[2m2022-05-25 15:52:42.601[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-25 15:52:42.645[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-9999"]
+[2m2022-05-25 15:52:42.647[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/happyhouse'
+[2m2022-05-25 15:52:42.766[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.ssafy.happyhouse.VueApiApplication  [0;39m [2m:[0;39m Started VueApiApplication in 0.823 seconds (JVM running for 23583.842)
+[2m2022-05-25 15:52:42.769[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-05-25 15:52:45.262[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.a.c.c.C.[.[localhost].[/happyhouse]   [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2022-05-25 15:52:45.262[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-25 15:52:45.263[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-25 15:52:49.233[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m retrieveNews - 호출
+[2m2022-05-25 15:52:49.236[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-4 - Starting...
+[2m2022-05-25 15:52:49.256[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-4 - Start completed.
+[2m2022-05-25 15:53:25.193[0;39m [32m INFO[0;39m [35m66048[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.h.controller.NewsController         [0;39m [2m:[0;39m updateNews - 호출

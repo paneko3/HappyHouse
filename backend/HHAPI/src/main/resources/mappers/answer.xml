@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.happyhouse.model.mapper.AnswerMapper">
+	
+	<!-- Answer 상세 조회 -->
+	<select id="selectAnswerByNo" resultType="AnswerDto">
+		select answerno, qnano, content, id, regtime
+		from qna_answer 
+		where qnano = #{qnano}
+	</select>
+
+	<!-- Answer 등록 -->
+	<insert id="insertAnswer" parameterType="AnswerDto">
+		insert into qna_answer(
+			qnano, content, id
+		) values (
+			#{qnano}, #{content}, #{id}
+		)
+	</insert>
+	
+	<!-- Answer 수정 -->
+	<update id="updateAnswer" parameterType="AnswerDto">
+		update qna_answer 
+		   set content = #{content},
+		   	   id = #{id}
+		 where qnano = #{qnano}
+	</update>
+
+	<!-- Answer 삭제 -->
+	<delete id="deleteAnswer" parameterType="int">
+		delete 
+		from qna_answer 
+		where qnano = #{qnano}
+	</delete>
+
+</mapper>
+

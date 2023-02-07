@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.model.mapper.HouseMapMapper">
+
+	<select id="getSido" resultType="sidoGugunCodeDto">
+		select left(sidoCode,2) sidoCode, sidoName
+		from sidocode
+		order by sidoCode
+	</select>
+	
+	<select id="getGugunInSido" parameterType="string" resultType="sidoGugunCodeDto">
+		select left(gugunCode,5) gugunCode, gugunName
+		from guguncode
+		where left(gugunCode,2) = #{sido}
+		order by gugunCode
+	</select>
+	
+	<select id="getDongInGugun" parameterType="string" resultType="dongDto">
+		select dongName, dongCode,subName, lat, lng
+		from baseaddress
+		where left(dongCode, 5) = #{gugun}
+		order by dongName;
+	</select>
+	
+	<select id="getAptInDong" parameterType="string" resultType="houseInfoDto">
+		select h.aptCode, h.apartmentName aptName, h.buildyear, h.dongCode, h.dong dongName, h.jibun, h.lat, h.lng, si.sidoname, gu.gugunname,
+				(select dealAmount from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)) recentPrice,
+				(select area from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)) area
+		from houseinfo h
+		left join sidocode si
+		on left(h.dongcode,2) = left(si.sidocode,2)
+		left join guguncode gu
+		on left(h.dongcode,5) = left(gu.guguncode,5)
+		where dongCode = #{dong}
+		order by aptName;
+	</select>
+	
+	<select id="getAptDeal" parameterType="string" resultType="houseDealDto">
+		select b.aptCode,b.apartmentName aptName,b.dongCode, hd.area, hd.floor, hd.dealAmount, hd.dealYear, hd.dealMonth, hd.dealDay 
+		from housedeal hd join houseinfo b 
+		on hd.aptCode = b.aptCode
+		where b.aptCode=#{aptCode}
+		order by hd.dealYear desc, hd.dealMonth desc, hd.dealDay desc;
+	</select>
+	
+	
+	
+	<select id="getFacility" parameterType="string" resultType="facilityDto">
+		<![CDATA[
+		select *
+		from facility
+		where (6371 * acos( cos( radians(lat) ) * cos( radians( #{lat} ) ) 
+		* cos( radians( #{lng} ) - radians(lng) ) 
+		+ sin( radians(lat) ) * sin( radians( #{lat} )) ) )<=
+		]]>
+		<choose>
+			<when test="zoomlevel==1"> 0.1 </when>
+		    	<when test="zoomlevel==2"> 0.2 </when>
+		    	<when test="zoomlevel==3"> 0.4 </when>
+		    	<when test="zoomlevel==4"> 0.7 </when>
+			<otherwise> 1.5 </otherwise>
+		</choose>
+		<if test="category!=null">
+		and category=#{category}
+		</if>
+		order by (6371 * acos( cos( radians(lat) ) * cos( radians( #{lat} ) ) 
+		* cos( radians( #{lng} ) - radians(lng) ) 
+		+ sin( radians(lat) ) * sin( radians( #{lat} )) ) )
+	</select>
+	
+<!-- 	<select id="getAptFacility" parameterType="string" resultType="facilityDto">
+		select *
+		from facility
+		where (6371 * acos( cos( radians(lat) ) * cos( radians(  (select MAX(lat) from houseinfo where aptcode=#{aptCode}) ) ) 
+		* cos( radians( (select MAX(lng) from houseinfo where aptcode=#{aptCode}) ) - radians(lng) ) 
+		+ sin( radians(lat) ) * sin( radians( (select MAX(lat) from houseinfo where aptcode=#{aptCode}) ) ) ) ) <![CDATA[<=]]>#{dis}
+	</select> -->
+	
+	<select id="getStation" parameterType="string" resultType="stationDto">
+		<![CDATA[
+		select *
+		from station
+		where (6371 * acos( cos( radians(lat) ) * cos( radians( #{lat} ) ) 
+		* cos( radians( #{lng} ) - radians(lng) ) 
+		+ sin( radians(lat) ) * sin( radians( #{lat} )) ) )<=
+		]]>
+		<choose>
+			<when test="zoomlevel==1"> 0.1 </when>
+		    	<when test="zoomlevel==2"> 0.2 </when>
+		    	<when test="zoomlevel==3"> 0.4 </when>
+		    	<when test="zoomlevel==4"> 0.7 </when>
+			<otherwise> 1.5 </otherwise>
+		</choose>
+	</select>
+	
+	<select id="getAptAround" parameterType="string" resultType="houseInfoDto">
+		<![CDATA[
+		select h.aptCode, h.apartmentName aptName, h.buildyear, h.dongCode, h.dong dongName, h.jibun, h.lat, h.lng, si.sidoname, gu.gugunname,
+				(select dealAmount from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)) recentPrice,
+				(select area from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)) area
+		from houseinfo h
+		left join sidocode si
+		on left(h.dongcode,2) = left(si.sidocode,2)
+		left join guguncode gu
+        on left(h.dongcode,5) = left(gu.guguncode,5)
+		where (6371 * acos( cos( radians(lat) ) * cos( radians( #{lat} ) ) 
+		* cos( radians( #{lng} ) - radians(lng) ) 
+		+ sin( radians(lat) ) * sin( radians( #{lat} )) ) )<=
+		]]>
+		<choose>
+			<when test="zoomlevel==1"> 0.1 </when>
+		    	<when test="zoomlevel==2"> 0.2 </when>
+		    	<when test="zoomlevel==3"> 0.4 </when>
+		    	<when test="zoomlevel==4"> 0.7 </when>
+			<otherwise> 1.5 </otherwise>
+		</choose>
+		<if test="pricemax!=null">
+   		and cast(replace((select dealAmount from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)),",","") as unsigned) <![CDATA[<=]]> #{pricemax}
+		</if>
+		<if test="pricemin!=null">
+   		and cast(replace((select dealAmount from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)),",","") as unsigned) <![CDATA[>=]]> #{pricemin}
+		</if>
+		<if test="areamax!=null">
+   		and (select area from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)) <![CDATA[<=]]> #{areamax}
+		</if>
+		<if test="areamin!=null">
+   		and (select area from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)) <![CDATA[>=]]> #{areamin}
+		</if>
+		order by (6371 * acos( cos( radians(lat) ) * cos( radians( #{lat} ) ) 
+		* cos( radians( #{lng} ) - radians(lng) ) 
+		+ sin( radians(lat) ) * sin( radians( #{lat} )) ) );
+	</select>
+	
+	
+<!--  	<select id="getNearFacilityDis" parameterType="string" resultType="String">
+		select min((6371 * acos( cos( radians(lat) ) * cos( radians(#{lat} ) ) 
+		* cos( radians( #{lng}) - radians(lng) ) 
+		+ sin( radians(lat)) * sin( radians( #{lat} )) ) )) distance
+		from facility
+		where (6371 * acos( cos( radians(lat) ) * cos( radians(#{lat} ) ) 
+		* cos( radians( #{lng}) - radians(lng) ) 
+		+ sin( radians(lat)) * sin( radians( #{lat} )) ) )
+		<![CDATA[<=]]>#{dis}
+		and category=#{category};
+	</select>  -->
+	
+	<select id="getAptFacilityDis" parameterType="string" resultType="String">
+		select min((6371 * acos( cos( radians(lat) ) * cos( radians(  (select MAX(lat) from houseinfo where aptcode=#{aptCode}) ) ) 
+		* cos( radians( (select MAX(lng) from houseinfo where aptcode=#{aptCode}) ) - radians(lng) ) 
+		+ sin( radians(lat) ) * sin( radians( (select MAX(lat) from houseinfo where aptcode=#{aptCode}) ) ) ) )) distance
+		from facility
+		where (6371 * acos( cos( radians(lat) ) * cos( radians(  (select MAX(lat) from houseinfo where aptcode=#{aptCode}) ) ) 
+		* cos( radians( (select MAX(lng) from houseinfo where aptcode=#{aptCode}) ) - radians(lng) ) 
+		+ sin( radians(lat) ) * sin( radians( (select MAX(lat) from houseinfo where aptcode=#{aptCode}) ) ) ) ) <![CDATA[<=]]>#{dis}
+		and category=#{category};
+	</select>
+	
+	<select id="getNearStationDis" parameterType="string" resultType="String">
+		select min((6371 * acos( cos( radians(lat) ) * cos( radians(  (select MAX(lat) from houseinfo where aptcode=#{aptCode}) ) ) 
+		* cos( radians( (select MAX(lng) from houseinfo where aptcode=#{aptCode}) ) - radians(lng) ) 
+		+ sin( radians(lat) ) * sin( radians( (select MAX(lat) from houseinfo where aptcode=#{aptCode}) ) ) ) )) distance
+		from station
+		where (6371 * acos( cos( radians(lat) ) * cos( radians(  (select MAX(lat) from houseinfo where aptcode=#{aptCode}) ) ) 
+		* cos( radians( (select MAX(lng) from houseinfo where aptcode=#{aptCode}) ) - radians(lng) ) 
+		+ sin( radians(lat) ) * sin( radians( (select MAX(lat) from houseinfo where aptcode=#{aptCode}) ) ) ) )
+		<![CDATA[<=]]>#{dis}
+	</select>
+</mapper>

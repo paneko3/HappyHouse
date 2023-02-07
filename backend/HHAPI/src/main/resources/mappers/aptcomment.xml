@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.happyhouse.model.mapper.AptCommentMapper">
+
+	<!-- AptComment 전체 조회 
+	<select id="selectAptComment" resultType="AptCommentDto">
+		select commentno, id, content,regtime, aptCode,rank
+		from aptComment 
+		order by commentno desc
+	</select>-->
+	
+	<!-- AptComment 상세 조회 -->
+	<select id="selectAptCommentByNo" parameterType="string" resultType="AptCommentDto">
+		select commentno, id, content,regtime, aptCode, `rank`
+		from aptComment 
+		where aptCode = #{aptCode}
+	</select>
+
+	<!-- AptComment 등록 -->
+	<insert id="insertAptComment" parameterType="AptCommentDto">
+		insert into aptComment(
+			id, content, aptCode,`rank`
+		) values (
+			#{id}, #{content}, #{aptCode}, #{rank}
+		)
+	</insert>
+	
+	<!-- AptComment 수정 -->
+	<update id="updateAptComment" parameterType="AptCommentDto">
+		update aptComment 
+		   set content = #{content},`rank` = #{rank}
+		 where commentno = #{commentno}
+	</update>
+
+	<!-- AptComment 삭제 -->
+	<delete id="deleteAptComment" parameterType="int">
+		delete 
+		from aptComment 
+		where commentno = #{commentno}
+	</delete>
+
+</mapper>

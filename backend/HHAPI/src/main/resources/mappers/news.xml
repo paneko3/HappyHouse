@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.happyhouse.model.mapper.NewsMapper">
+
+	<!-- QnA 전체 조회 -->
+	<select id="selectNews" resultType="NewsDto">
+		select no, title, content,regtime, company,url,imgsrc
+		from news 
+		order by no
+	</select>
+
+	
+	<!-- News 갱신 -->
+	<update id="updateNews" parameterType="NewsDto">
+		update news
+		   set no = #{no},
+		   		title = #{title}, 
+		   	   content = #{content},
+		   	   regtime = #{regtime},
+		   	   company = #{company},
+		   	   url = #{url},
+		   	   imgsrc = #{imgsrc}
+		 where no = #{no}
+	</update>
+
+</mapper>
+

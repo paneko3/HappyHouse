@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.happyhouse.model.mapper.QnAMapper">
+
+	<!-- QnA 전체 조회 -->
+	<select id="selectQnA" resultType="QnADto">
+		select qnano, subject, content,id, regtime
+		from qna 
+		order by qnano desc
+	</select>
+	
+	<!-- QnA 상세 조회 -->
+	<select id="selectQnAByNo" resultType="QnADto">
+		select qnano, subject, content, id, regtime
+		from qna 
+		where qnano = #{qnano}
+	</select>
+
+	<!-- QnA 등록 -->
+	<insert id="insertQnA" parameterType="QnADto">
+		insert into qna(
+			subject, content, id
+		) values (
+			#{subject}, #{content}, #{id}
+		)
+	</insert>
+	
+	<!-- QnA 수정 -->
+	<update id="updateQnA" parameterType="QnADto">
+		update qna 
+		   set subject = #{subject}, 
+		   	   content = #{content},
+		   	   id = #{id}
+		 where qnano = #{qnano}
+	</update>
+
+	<!-- QnA 삭제 -->
+	<delete id="deleteQnA" parameterType="int">
+		delete 
+		from qna 
+		where qnano = #{qnano}
+	</delete>
+
+</mapper>
+
